@@ -10,7 +10,7 @@ script, from_file, to_file = argv #Want to initiate the file we are copying from
 
 print(f"Copying from {from_file} to {to_file}")
 
-in_file = open(from_file) #Put dvd int he dvd player
+in_file = open(from_file) #Put dvd int the dvd player
 indata = in_file.read() #Only gonna play items
 
 print(f"The input file is {len(indata)} bytes long")
